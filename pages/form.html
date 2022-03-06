@@ -1,0 +1,509 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cosmogony - Formulario</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="../css/carousel.css">
+</head>
+
+<body>
+    <!-- START THE MENU -->
+    <header>
+        <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Cosmogony - Formulario</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+                    aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="pasteles.html">Pasteles</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Galletas</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Tartas</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Budines</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex">
+                        <button class="btn btn-outline-success" type="submit">New User</button>
+                        <button class="btn btn-outline-success" type="submit">Login</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- /END THE MENU -->
+    <main>
+        <!-- START THE DESCRIPTION -->
+        <section class="py-5 text-center container">
+            <div class="row py-lg-5">
+                <div class="col-lg-6 col-md-8 mx-auto">
+                    <h1 class="fw-light">Formulario</h1>
+                    <p class="lead text-muted">En caso de seleccionar recoger pedido, es necesario solo
+                        ingresar los datos de identificación, además de seleccionar el producto o los ingredientes para
+                        elaborar su pedido.</p>
+                </div>
+            </div>
+        </section>
+        <!-- /END THE DESCRIPTION -->
+        <!-- START THE FORMS -->
+        <section>
+            <div class="container">
+                <form class="row g-3">
+                    <!-- START THE IDENTIFICATION -->
+                    <div class="col-12">
+                        <h3 class="mb-3">Selecciona el método.</h3>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                            <label class="form-check-label" for="flexRadioDefault1">
+                                Recoger pedido.
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2"
+                                checked>
+                            <label class="form-check-label" for="flexRadioDefault2">
+                                Pedido a domicilio.
+                            </label>
+                        </div>
+                        <h3 class="mb-3">Billing address</h3>
+                        <div class="row g-3">
+                            <div class="col-sm-6">
+                                <label for="firstName" class="form-label">First name</label>
+                                <input type="text" class="form-control" id="firstName" placeholder="Francis Carnnel"
+                                    value="">
+                            </div>
+                            <div class="col-sm-6">
+                                <label for="lastName" class="form-label">Last name</label>
+                                <input type="text" class="form-control" id="lastName" placeholder="Torres Salinas"
+                                    value="">
+                            </div>
+
+                            <div class="col-12">
+                                <label for="username" class="form-label">Username</label>
+                                <div class="input-group has-validation">
+                                    <span class="input-group-text">@</span>
+                                    <input type="text" class="form-control" id="username"
+                                        placeholder="Nombre de Usuario">
+                                </div>
+                            </div>
+
+                            <div class="col-12">
+                                <label for="email" class="form-label">Correo Electrónico <span
+                                        class="text-muted">(Optional)</span></label>
+                                <input type="email" class="form-control" id="email" placeholder="launch@innova.csm">
+                            </div>
+
+                            <div class="col-sm-6">
+                                <label for="galaxy" class="form-label">Galaxia</label>
+                                <input type="text" class="form-control" id="galaxy" placeholder="Vía Láctea" value="">
+                            </div>
+                            <div class="col-sm-6">
+                                <label for="system" class="form-label">Sistema Solar</label>
+                                <input type="text" class="form-control" id="system" placeholder="" value="">
+                            </div>
+
+                            <div class="col-sm-6">
+                                <label for="moon" class="form-label">Planeta o Luna</label>
+                                <input type="text" class="form-control" id="moon" placeholder="Júpiter" value="">
+                            </div>
+                            <div class="col-sm-6">
+                                <label for="country" class="form-label">País</label>
+                                <input type="text" class="form-control" id="country" placeholder="México" value="">
+                            </div>
+
+                            <div class="col-sm-6">
+                                <label for="moon" class="form-label">Planeta o Luna</label>
+                                <input type="text" class="form-control" id="moon" placeholder="Júpiter" value="">
+                            </div>
+                            <div class="col-sm-6">
+                                <label for="country" class="form-label">País</label>
+                                <input type="text" class="form-control" id="country" placeholder="México" value="">
+                            </div>
+
+                            <div class="col-sm-6">
+                                <label for="state" class="form-label">Estado o Ciudad</label>
+                                <input type="text" class="form-control" id="state" placeholder="Ciudad de México"
+                                    value="">
+                            </div>
+                            <div class="col-sm-6">
+                                <label for="postal" class="form-label">Código Postal</label>
+                                <input type="text" class="form-control" id="postal" placeholder="66437" value="">
+                            </div>
+
+                            <div class="col-12">
+                                <label for="adress" class="form-label">Dirección</label>
+                                <input type="adress" class="form-control" id="adress" placeholder="Leona Vicario">
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /END THE IDENTIFICATION -->
+                    <!-- START THE PRODUCT -->
+                    <div class="col-md-7 col-lg-8">
+                        <h3 class="mb-3">Selecciona el estilo y los ingredientes que deseas combinar.</h3>
+                        <div class="row g-3">
+                            <div class="col-md-9">
+                                <label for="DataList1" class="form-label">Pasteles</label>
+                                <input class="form-control" list="datalistOptions" id="DataList1"
+                                    placeholder="Type to search...">
+                                <datalist id="datalistOptions">
+                                    <option value="Explosión del Cosmos">
+                                    <option value="K2-18b">
+                                    <option value="Espacial">
+                                    <option value="GJ 504b">
+                                    <option value="Júpiter">
+                                    <option value="Happy Brthday">
+                                </datalist>
+                            </div>
+                            <div class="col-md-3">
+                                <label for="number2" class="form-label">Cantidad</label>
+                                <input type="number" class="form-control" id="number2" placeholder="Total de pasteles">
+                            </div>
+                            <div class="col-md-9">
+                                <label for="DataList2" class="form-label">Budines</label>
+                                <input class="form-control" list="datalistOptions2" id="DataList2"
+                                    placeholder="Elige el tipo de pastel...">
+                                <datalist id="datalistOptions2">
+                                    <option value="Próximamente">
+                                </datalist>
+                            </div>
+                            <div class="col-md-3">
+                                <label for="number3" class="form-label">Cantidad</label>
+                                <input type="number" class="form-control" id="number3" placeholder="Total de budines">
+                            </div>
+                            <div class="col-md-9">
+                                <label for="DataList3" class="form-label">Galletas</label>
+                                <input class="form-control" list="datalistOptions3" id="DataList3"
+                                    placeholder="Elige el tipo de pastel...">
+                                <datalist id="datalistOptions3">
+                                    <option value="Próximamente">
+                                </datalist>
+                            </div>
+                            <div class="col-md-3">
+                                <label for="number4" class="form-label">Cantidad</label>
+                                <input type="number" class="form-control" id="number4" placeholder="Total de galletas">
+                            </div>
+                            <div class="col-md-9">
+                                <label for="DataList4" class="form-label">Tartas</label>
+                                <input class="form-control" list="datalistOptions4" id="DataList4"
+                                    placeholder="Elige el tipo de pastel...">
+                                <datalist id="datalistOptions4">
+                                    <option value="Próximamente">
+                                </datalist>
+                            </div>
+                            <div class="col-md-3">
+                                <label for="number5" class="form-label">Cantidad</label>
+                                <input type="number" class="form-control" id="number5" placeholder="Total de Tartas">
+                            </div>
+                            <!-- /END THE PRODUCT -->
+                            <hr class="my-4">
+                            <!-- START THE SELECTION INGREDIENTS -->
+                            <div class="col-md-4">
+                                <div class="form-check">
+                                    <h3>Cubierta $50 x sabor</h3>
+                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault1">
+                                    <label class="form-check-label" for="flexCheckDefault1">
+                                        Chantilly
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault2">
+                                    <label class="form-check-label" for="flexCheckDefault2">
+                                        Chocolate
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault3">
+                                    <label class="form-check-label" for="flexCheckDefault3">
+                                        Glaseado de menta
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault3">
+                                    <label class="form-check-label" for="flexCheckDefault3">
+                                        Fondant de Kiwi
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault3">
+                                    <label class="form-check-label" for="flexCheckDefault3">
+                                        Fondat de Néstle
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault3">
+                                    <label class="form-check-label" for="flexCheckDefault3">
+                                        Fondat de frutos
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="form-check">
+                                    <h3>Relleno $50 x sabor</h3>
+                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault5">
+                                    <label class="form-check-label" for="flexCheckDefault5">
+                                        Chocolate
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault6">
+                                    <label class="form-check-label" for="flexCheckDefault6">
+                                        Mermelada de bayas
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault7">
+                                    <label class="form-check-label" for="flexCheckDefault7">
+                                        Mermelada de arandano
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault8">
+                                    <label class="form-check-label" for="flexCheckDefault8">
+                                        Mermelada de fresa
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault15">
+                                    <label class="form-check-label" for="flexCheckDefault15">
+                                        Mus de fresa
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault15">
+                                    <label class="form-check-label" for="flexCheckDefault15">
+                                        Mus de coco
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault15">
+                                    <label class="form-check-label" for="flexCheckDefault15">
+                                        chantilly
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="form-check">
+                                    <h3>Decoración $50 x decoración</h3>
+                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault8">
+                                    <label class="form-check-label" for="flexCheckDefault9">
+                                        Hojas de menta y bayas
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault10">
+                                    <label class="form-check-label" for="flexCheckDefault10">
+                                        Polvo y granos de café
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault11">
+                                    <label class="form-check-label" for="flexCheckDefault11">
+                                        Estrellas (No comestibles)
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault12">
+                                    <label class="form-check-label" for="flexCheckDefault12">
+                                        Figuras espaciales
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault15">
+                                    <label class="form-check-label" for="flexCheckDefault15">
+                                        Frambuezas y figuras de chocolate
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault15">
+                                    <label class="form-check-label" for="flexCheckDefault15">
+                                        Castañas, nueces y almendras
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="form-check">
+                                    <h3>Sabor de Pan $50 x sabor</h3>
+                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault13">
+                                    <label class="form-check-label" for="flexCheckDefault13">
+                                        Pan de Vainilla
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault14">
+                                    <label class="form-check-label" for="flexCheckDefault14">
+                                        Pan de Chocolate
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault15">
+                                    <label class="form-check-label" for="flexCheckDefault15">
+                                        Pan de Café
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault15">
+                                    <label class="form-check-label" for="flexCheckDefault15">
+                                        Pan de Fresa
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault16">
+                                    <label class="form-check-label" for="flexCheckDefault16">
+                                        Pan de Elote
+                                    </label>
+                                </div>
+                            </div>
+                            <!-- START THE PAYMENT -->
+                            <hr class="my-4">
+                            <h3 class="mb-3">Tipo de pago</h3>
+                            <div class="my-3">
+                                <div class="form-check">
+                                    <input id="credit" name="paymentMethod" type="radio" class="form-check-input"
+                                        checked required>
+                                    <label class="form-check-label" for="credit">Tarjeta de credito</label>
+                                </div>
+                                <div class="form-check">
+                                    <input id="debit" name="paymentMethod" type="radio" class="form-check-input"
+                                        required>
+                                    <label class="form-check-label" for="debit">Tarjeta de debito</label>
+                                </div>
+                                <div class="form-check">
+                                    <input id="paypal" name="paymentMethod" type="radio" class="form-check-input"
+                                        required>
+                                    <label class="form-check-label" for="paypal">PayPal</label>
+                                </div>
+                            </div>
+                            <div class="row gy-3">
+                                <div class="col-md-6">
+                                    <label for="cc-name" class="form-label">Número de tarjeta</label>
+                                    <input type="text" class="form-control" id="cc-name" placeholder="XXXX-XXXX-XXXX"
+                                        required>
+                                    <small class="text-muted">Número completo de la tarjeta</small>
+                                </div>
+
+                                <div class="col-md-6">
+                                    <label for="cc-number" class="form-label">Número de tarjeta de credito</label>
+                                    <input type="text" class="form-control" id="cc-number" placeholder="" required>
+                                </div>
+
+                                <div class="col-md-3">
+                                    <label for="cc-expiration" class="form-label">Caducidad</label>
+                                    <input type="text" class="form-control" id="cc-expiration" placeholder="24/2090"
+                                        required>
+                                </div>
+
+                                <div class="col-md-3">
+                                    <label for="cc-cvv" class="form-label">CVV</label>
+                                    <input type="text" class="form-control" id="cc-cvv" placeholder="XXX" required>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-5 col-lg-4 order-md-last">
+                        <h4 class="d-flex justify-content-between align-items-top mb-3">
+                            <span class="text-primary">Pedido</span>
+                            <span class="badge bg-primary rounded-pill">1</span>
+                        </h4>
+                        <ul class="list-group mb-3">
+                            <li class="list-group-item d-flex justify-content-between lh-sm">
+                                <div>
+                                    <h6 class="my-0">Explosión del Cosmos</h6>
+                                    <small class="text-muted">Tipo de pastel</small>
+                                </div>
+                                <span class="text-muted">$200 CSM</span>
+                            </li>
+                            <li class="list-group-item d-flex justify-content-between lh-sm">
+                                <div>
+                                    <h6 class="my-0">Decoración</h6>
+                                    <small class="text-muted">Hojas de menta y bayas </small>
+                                </div>
+                                <span class="text-muted">$50</span>
+                            </li>
+                            <li class="list-group-item d-flex justify-content-between lh-sm">
+                                <div>
+                                    <h6 class="my-0">Cubierta</h6>
+                                    <small class="text-muted">Fondat de Néstle</small>
+                                </div>
+                                <span class="text-muted">$50</span>
+                            </li>
+                            <li class="list-group-item d-flex justify-content-between lh-sm">
+                                <div>
+                                    <h6 class="my-0">Relleno</h6>
+                                    <small class="text-muted">Mermelada de bayas</small>
+                                </div>
+                                <span class="text-muted">$50</span>
+                            </li>
+                            <li class="list-group-item d-flex justify-content-between lh-sm">
+                                <div>
+                                    <h6 class="my-0">Sabor de Pan</h6>
+                                    <small class="text-muted">Chocolate</small>
+                                </div>
+                                <span class="text-muted">$50</span>
+                            </li>
+                            <li class="list-group-item d-flex justify-content-between bg-light">
+                                <div class="text-success">
+                                    <h6 class="my-0">Código de promoción</h6>
+                                    <small>XBT-DTH-6G4</small>
+                                </div>
+                                <span class="text-success">−$50</span>
+                            </li>
+                            <li class="list-group-item d-flex justify-content-between">
+                                <span>Total (CSM)</span>
+                                <strong>$350</strong>
+                            </li>
+                        </ul>
+
+                        <form class="card p-2">
+                            <div class="input-group">
+                                <input type="text" class="form-control" placeholder="Código de promoción">
+                                <button type="submit" class="btn btn-secondary">Redeem</button>
+                            </div>
+                        </form>
+                    </div>
+                    <!-- /END THE PAYMENT -->
+                    <div class="col-12">
+                        <label for="exampleFormControlTextarea1" class="form-label">¿Tienes una idea
+                            diferente?,
+                            ¡COMENTALA!</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    </div>
+                    <br>
+                    <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+                        <button class="btn btn-primary me-md-2" type="submit">Submit</button>
+                        <button class="btn btn-primary" type="reset">Reset</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+    <!-- START THE COPYRIGHT-->
+    <footer class="container">
+        <p class="float-end"><a href="#">Back to top</a></p>
+        <p>&copy; 2022 Cosmogony. &middot; <a href="#">Privacidad</a> &middot; <a href="#">Terminos</a></p>
+    </footer>
+    <!-- /END THE COPYRIGHT-->
+
+    <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
