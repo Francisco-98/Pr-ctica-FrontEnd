@@ -1,2 +1,6 @@
-# Pr-ctica-FrontEnd
-Página web de una pastelería "Cosmogony", utilizando Bootstrap
+# FrontEnd-HTML
+Página web de pastelería "Cosmogony", utilizando Bootstrap. Segunda misión de FrontEnd
+
+# :rocket: Página web en 000webhosting: 
+* https://cosmogony.000webhostapp.com/
+
